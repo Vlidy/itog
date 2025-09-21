@@ -1,7 +1,11 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 
 int main()
 {
-    printf("hello world");
+    printf("welcome, enter 2 num\n");
+    int a, b = 0;
+    scanf("%d%d", &a, &b);
+    printf("%d %d", a, b);
     return 0;
 }
